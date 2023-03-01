@@ -23,7 +23,7 @@ function App() {
 
   function onSubmit (event) {
     event.preventDefault();
-    setCity(latitudeField + "," + latitudeField);
+    setCity(latitudeField + "," + longitudeField);
     setLatitude(latitudeField);
     setLongitude(longitudeField);
   }
